@@ -1,0 +1,181 @@
+#wcd-email-designer-wrapper {}
+#wcd-email-designer-wrapper .wcd-email-designer-header {
+	text-align: center;
+	margin-bottom: 50px;
+}
+#wcd-email-designer-wrapper .wcd-email-designer-heading h4 {
+	color: #FC617A;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 500;
+	margin-top: 30px;
+	margin-bottom: 12px;
+	font-family: 'Poppins', sans-serif;
+}
+#wcd-email-designer-wrapper .wcd-email-designer-heading h2 {
+	color: #000;
+	font-size: 36px;
+	line-height: 47px;
+	font-weight: 400;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+#wcd-email-designer-wrapper .wcd-email-designer-header.wcd-email-designer-heading p {
+	width: 65%;
+	margin: auto;
+	margin-top: 30px;
+}
+#wcd-email-designer-wrapper .wcd-email-designer-heading p {
+	font-size: 16px;
+	line-height: 30px;
+	margin-top: 25px;
+}
+.wcd-email-designer-box-content-wrap {
+	margin-top: -40px;
+}
+.wcd-email-designer-box-content-wrap h4 {
+	margin-top: 0 !important;
+}
+.wcd-email-designer-box-content-wrap h2 {}
+.wcd-email-designer-box-content-wrap p {}
+.wcd-email-designer-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    gap: 50px;
+}
+.wcd-email-designer-box-content {
+	flex: 1;
+	/* width: 45%; */
+	/* margin: 20px; */
+}
+.wcd-email-designer-box-image {
+	flex: 1;
+	/*width: 55%;*/
+}
+.wcd-email-designer-box-image img {
+	width: 100%;
+	height: auto;
+}
+.wcd-padding-left-32 {
+	padding-left: 32px;
+}
+.wcd-email-designer-box-content-wrap span {
+	font-size: 20px;
+	background: #678bff;
+	color: #fff;
+	padding: 15px;
+	border-radius: 7px;
+	margin-bottom: 15px;
+}
+.wcd-email-designer-editor-wrap .wcd-email-designer-box-content-wrap span {
+	background: #b662f6;
+}
+.wcd-email-designer-inbox-wrap .wcd-email-designer-box-content-wrap span {
+	background: #fea4a4;
+}
+.wcd-edf-desc {
+	font-size: 16px;
+	text-align: center;
+	margin: 70px auto;
+	width: 700px;
+	line-height: 32px;
+}
+.wcd-edf-btns {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	margin-bottom: 50px;
+}
+.wcd-edf-btns .wcd-edf-btn {
+	text-decoration: none;
+	border: 1px solid #0080FF;
+	padding: 15px 70px;
+	font-size: 16px;
+	border-radius: 50px;
+	color: #0080FF;
+	transition: all 0.4s;
+}
+.wcd-edf-btns .wcd-edf-btn.active {
+	background: #0080FF;
+	color: #fff;
+}
+.wcd-edf-btns .wcd-edf-btn.active:hover {
+	background: #fff;
+	color: #0080FF;
+}
+/*responsive*/
+@media only screen and (max-width: 767px) {
+	#wcd-email-designer-wrapper .wcd-email-designer-heading h2 {
+		font-size: 20px;
+		line-height: 32px;
+	}
+	#wcd-email-designer-wrapper .wcd-email-designer-header.wcd-email-designer-heading p {
+		width: 100%;
+	}
+	#wcd-email-designer-wrapper .wcd-email-designer-heading p {
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.wcd-email-designer-box-image {
+		flex: 100%;
+	}
+	.wcd-email-designer-box-content {
+		flex: 100%;
+		margin-top: 35px;
+	}
+	.wcd-padding-left-32 {
+		padding-left: 0;
+	}
+	.wcd-email-designer-box-content-wrap {
+		margin-top: 0;
+	}
+	.wcd-email-designer-box.wcd-email-designer-setting-wrap {
+		flex-wrap: wrap-reverse;
+	}
+	.wcd-edf-desc {
+		width: 100%;
+	}
+	.wcd-edf-btns {
+		display: grid;
+	}
+	.wcd-edf-btns .wcd-edf-btn {
+		padding: 10px 60px;
+		font-size: 14px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#wcd-email-designer-wrapper .wcd-email-designer-heading h2 {
+		font-size: 30px;
+		line-height: 47px;
+	}
+	#wcd-email-designer-wrapper .wcd-email-designer-header.wcd-email-designer-heading p {
+		width: 100%;
+	}
+	#wcd-email-designer-wrapper .wcd-email-designer-heading p {
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.wcd-email-designer-box-image {
+		flex: 100%;
+	}
+	.wcd-email-designer-box-content {
+		flex: 100%;
+		margin-top: 35px;
+	}
+	.wcd-padding-left-32 {
+		padding-left: 0;
+	}
+	.wcd-email-designer-box-content-wrap {
+		margin-top: 0;
+	}
+	.wcd-email-designer-box.wcd-email-designer-setting-wrap {
+		flex-wrap: wrap-reverse;
+	}	
+	.wcd-edf-desc {
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 992px) {
+}
